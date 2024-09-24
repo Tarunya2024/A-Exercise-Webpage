@@ -1,0 +1,398 @@
+
+*{
+    margin: 0;
+    padding:0;
+}body{
+    height:100vh;
+    width:100%;
+    background-color: #EBF2FA;
+}
+.heading{
+     margin-block:1rem;
+
+}
+h2{
+    text-align: center;
+    font-size: 70px;
+    font-weight: 300;
+}
+.para{
+    margin-block:3rem;
+    padding: 1rem;
+    border-bottom:1px solid black;
+}
+
+.navbar{
+background-color: black;
+display: flex;
+justify-content: space-evenly;
+height:70px;
+font-size:20px;
+position:sticky;
+top:0px;
+z-index:1;
+
+}   
+a:hover{
+    color: black;
+    background-color: beige;
+}
+
+a{
+    color: beige;
+text-decoration: none;
+padding-top: 20px;
+}
+
+li{
+    list-style-type: none;
+    display: inline;
+}
+
+#img1{
+    background-image: url(health.avif);
+    background-size:contain;
+    width:35%;
+    height:350px;
+    margin:20px;
+    border-radius: 10px;
+    box-shadow:2px 2px 5px 5px rgb(184, 181, 181);
+    position: relative;
+    left:140px;
+    top:0px;
+}
+#img2{
+    background-image: url(benefits-healthy.avif);
+    background-size: contain;
+    width:35%;
+    height:350px;
+    border-radius: 10px;
+    box-shadow:2px 2px 5px 5px rgb(184, 181, 181);
+    position: relative;
+    left:210px;
+    top:-15px;
+}
+
+#img3{
+    background-image: url(dietman.avif);
+    background-size: contain;
+    width:35%;
+    height:350px;
+    border-radius: 10px;
+    box-shadow:2px 2px 5px 5px rgb(184, 181, 181);
+    position: relative;
+    top:0px;
+    left:159px
+
+}
+#img4{
+    background-image: url(healty.jpg);
+    background-size: contain;
+    width:35%;
+    height:350px;
+    border-radius: 10px;
+    box-shadow:2px 2px 5px 5px rgb(184, 181, 181);
+    position: relative;
+    top:0px;
+    left:250px
+
+}
+
+#image{
+    background-color: bisque;
+    position:fixed;
+     top: 60%;
+     object-fit: cover;
+     background-size: cover;
+     left: 70%;
+    width:240px;
+    height:240px;
+    display: none;
+}
+
+#note{
+    text-decoration: wavy;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+#a1:hover{
+    color:rgb(249, 249, 251);
+    background-color: rgb(79, 96, 250);
+}
+#a2:hover{
+    color:rgb(249, 249, 251);
+    background-color: rgb(79, 96, 250);
+}
+#a3:hover{
+    color:rgb(249, 249, 251);
+    background-color: rgb(79, 96, 250);
+}
+#a4:hover{
+    color:rgb(249, 249, 251);
+    background-color: rgb(79, 96, 250);
+}
+#a5:hover{
+    color:rgb(249, 249, 251);
+    background-color: rgb(79, 96, 250);
+}
+#a6:hover{
+    color:rgb(249, 249, 251);
+    background-color: rgb(79, 96, 250);
+}
+
+#a7:hover{
+    color:rgb(249, 249, 251);
+    background-color: rgb(79, 96, 250);
+}
+#a8:hover{
+    color:rgb(249, 249, 251);
+    background-color: rgb(79, 96, 250);
+}
+#a9:hover{
+    color:rgb(249, 249, 251);
+    background-color: rgb(79, 96, 250);
+}
+#a10:hover{
+    color:rgb(249, 249, 251);
+    background-color: rgb(79, 96, 250);
+}
+#a11:hover{
+    color:rgb(249, 249, 251);
+    background-color: rgb(79, 96, 250);
+}
+#a12:hover{
+    color:rgb(249, 249, 251);
+    background-color: rgb(79, 96, 250);
+}
+#a13:hover{
+    color:rgb(249, 249, 251);
+    background-color: rgb(79, 96, 250);
+}
+#a14:hover{
+    color:rgb(249, 249, 251);
+    background-color: rgb(79, 96, 250);
+}
+#a15:hover{
+    color:rgb(249, 249, 251);
+    background-color: rgb(79, 96, 250);
+}
+#a16:hover{
+    color:rgb(249, 249, 251);
+    background-color: rgb(79, 96, 250);
+}
+#a17:hover{
+    color:rgb(249, 249, 251);
+    background-color: rgb(79, 96, 250);
+}
+#a18:hover{
+    color:rgb(249, 249, 251);
+    background-color: rgb(79, 96, 250);}
+#a19:hover{
+    color:rgb(249, 249, 251);
+    background-color: rgb(79, 96, 250);
+}
+#a20:hover{
+    color:rgb(249, 249, 251);
+    background-color: rgb(79, 96, 250);
+}
+#a21:hover{
+    color:rgb(249, 249, 251);
+    background-color: rgb(79, 96, 250);
+}
+#a22:hover{
+    color:rgb(249, 249, 251);
+    background-color: rgb(79, 96, 250);
+}
+#a23:hover{
+    color:rgb(249, 249, 251);
+    background-color: rgb(79, 96, 250);}
+
+#a24:hover{
+    color:rgb(249, 249, 251);
+    background-color: rgb(79, 96, 250);
+}
+#a25:hover{
+    color:rgb(249, 249, 251);
+    background-color: rgb(79, 96, 250);
+}
+#a26:hover{
+    color:rgb(249, 249, 251);
+    background-color: rgb(79, 96, 250);
+}
+#a27:hover{
+    color:rgb(249, 249, 251);
+    background-color: rgb(79, 96, 250);
+}
+#a28:hover{
+    color:rgb(249, 249, 251);
+    background-color: rgb(79, 96, 250);
+}
+#a29:hover{
+    color:rgb(249, 249, 251);
+    background-color: rgb(79, 96, 250);
+}
+#a30:hover{
+    color:rgb(249, 249, 251);
+    background-color: rgb(79, 96, 250);
+}
+#a31:hover{
+    color:rgb(249, 249, 251);
+    background-color: rgb(79, 96, 250);
+}
+#a32:hover{
+    color:rgb(249, 249, 251);
+    background-color: rgb(79, 96, 250);
+}
+#a33:hover{
+    color:rgb(249, 249, 251);
+    background-color: rgb(79, 96, 250);
+}
+#a34:hover{
+    color:rgb(249, 249, 251);
+    background-color: rgb(79, 96, 250);
+}
+#a35:hover{
+    color:rgb(249, 249, 251);
+    background-color: rgb(79, 96, 250);
+}
+#a36:hover{
+    color:rgb(249, 249, 251);
+    background-color: rgb(79, 96, 250);
+}
+#a37:hover{
+    color:rgb(249, 249, 251);
+    background-color: rgb(79, 96, 250);
+}
+#a38:hover{
+    color:rgb(249, 249, 251);
+    background-color: rgb(79, 96, 250);
+}
+#a39:hover{
+    color:rgb(249, 249, 251);
+    background-color: rgb(79, 96, 250);
+}
+#a40:hover{
+    color:rgb(249, 249, 251);
+    background-color: rgb(79, 96, 250);
+}
+#a41:hover{
+    color:rgb(249, 249, 251);
+    background-color: rgb(79, 96, 250);
+}
+#a42:hover{
+    color:rgb(249, 249, 251);
+    background-color: rgb(79, 96, 250);
+}
+
+#a43:hover{
+    color:rgb(249, 249, 251);
+    background-color: rgb(79, 96, 250);
+}
+#a44:hover{
+    color:rgb(249, 249, 251);
+    background-color: rgb(79, 96, 250);
+}
+#a45:hover{
+    color:rgb(249, 249, 251);
+    background-color: rgb(79, 96, 250);
+}
+
+#a46:hover{
+    color:rgb(249, 249, 251);
+    background-color: rgb(79, 96, 250);
+}
+#a47:hover{
+    color:rgb(249, 249, 251);
+    background-color: rgb(79, 96, 250);
+}
+#a48:hover{
+    color:rgb(249, 249, 251);
+    background-color: rgb(79, 96, 250);
+    
+}
+#a49:hover{
+    color:rgb(249, 249, 251);
+    background-color: rgb(79, 96, 250);
+    
+}
+#a50:hover{
+    color:rgb(249, 249, 251);
+    background-color: rgb(79, 96, 250);
+    
+}
+#a51:hover{
+    color:rgb(249, 249, 251);
+    background-color: rgb(79, 96, 250);
+    
+}
+#a52:hover{
+    color:rgb(249, 249, 251);
+    background-color: rgb(79, 96, 250);
+    
+}
+#a53:hover{
+    color:rgb(249, 249, 251);
+    background-color: rgb(79, 96, 250);
+    
+}
+#a54:hover{
+    color:rgb(249, 249, 251);
+    background-color: rgb(79, 96, 250);
+    
+}
+#a55:hover{
+    color:rgb(249, 249, 251);
+    background-color: rgb(79, 96, 250);
+    
+}
+#a56:hover{
+    color:rgb(249, 249, 251);
+    background-color: rgb(79, 96, 250);
+}
+#warmup{
+    padding:20px;
+    font-size:25px;
+    line-height:40px;
+    text-align: center;
+    background-color:rgb(245, 223, 183);
+}
+#dailyex{
+    padding:20px;
+    font-size:25px;
+    line-height:40px;text-align: center;
+    background-color: rgb(200, 226, 218);
+}
+#shaping{
+    padding:20px;
+    font-size:25px;
+    line-height:40px;
+    text-align: center;
+}
+#belly{
+    background-color: rgb(200, 154, 243);
+}
+#legs{
+    background-color: rgb(254, 156, 156);
+}
+
+#control{
+    padding:20px;
+    font-size:25px;
+    line-height:40px;text-align: center;
+}
+#bp{
+    background-color: rgb(252, 250, 180);
+}
+#sugar{
+    background-color: rgb(201, 194, 194);
+}
+#thyroid{
+    background-color: rgb(241, 168, 249);
+}
+
+#adv{
+    background-color:bisque;
+    color: black;
+}
